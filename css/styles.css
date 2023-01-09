@@ -275,6 +275,8 @@ img {
 
 .hero {
   max-width: 1440px;
+  height: 600px;
+  margin: 0 auto;
   padding-top: 188px;
   padding-bottom: 188px;
 
@@ -341,6 +343,7 @@ img {
 }
 
 .principles-icon-box {
+  margin-bottom: 8px;
   display: flex;
 
   height: 112px;
@@ -349,7 +352,6 @@ img {
   border-radius: 4px;
   align-items: center;
   justify-content: center;
-  background-size: contain;
 }
 .principles-icon {
 }
@@ -463,7 +465,7 @@ img {
 }
 
 .team-card-content {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 .team-soc-list {
@@ -512,14 +514,14 @@ img {
 .customers-list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -20px;
+  margin-left: -24px;
 }
 
 .customers-item {
-  flex-basis: calc(100% / 6 - 20px);
-  margin-left: 20px;
+  flex-basis: calc(100% / 6 - 24px);
+  margin-left: 24px;
 
-  display: block;
+  /* display: block; */
 }
 
 .customers-link {
@@ -527,22 +529,23 @@ img {
   width: 100%;
   height: 88px;
 
-  border: 1px solid #8e8f99;
+  border: 1px solid currentColor;
   border-radius: 4px;
 
   align-items: center;
   justify-content: center;
 
-  fill: #8e8f99;
+  color: #8e8f99;
 }
 
 .customers-link:hover,
 .customers-link:focus {
-  fill: #404bbf;
+  color: #404bbf;
   border-color: #404bbf;
 }
 
 .customers-icon {
+  fill: currentColor;
 }
 
 /* ------***PORTFOLIO***------ */
